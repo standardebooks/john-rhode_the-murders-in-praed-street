@@ -14,4 +14,5 @@ footer{
 #chapter-5 blockquote{
 	font-style: italic;
 	font-variant: small-caps;
+	text-align: center;
 }
