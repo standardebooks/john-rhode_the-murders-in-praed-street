@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/john-rhode/the-murders-in-praed-street</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-10-20T18:00:17Z</dc:date>
+		<meta property="dcterms:modified">2025-10-20T18:00:17Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -41,15 +41,18 @@
 		<meta property="se:subject">Mystery</meta>
 		<meta id="collection-1" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta id="collection-2" property="belongs-to-collection">Dr. Lancelot Priestley</meta>
+		<meta property="collection-type" refines="#collection-2">series</meta>
+		<meta property="group-position" refines="#collection-2">4</meta>
 		<dc:description id="description">An eccentric scientist investigates a series of shocking murders that terrorize London.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;The Murders in Praed Street&lt;/i&gt; is the fourth of the 72 detective novels written by Cecil Street under the pen name &lt;a href="https://standardebooks.org/ebooks/john-rhode"&gt;John Rhode&lt;/a&gt; that feature his character Lancelot Priestley, an eccentric scientist and mathematician. Part I of the novel introduces the neighborhood of Praed Street, its shopkeepers and their families. Among these characters are the first victims of a series of shocking murders that terrorize London and baffle the police. In Part II, Scotland Yard seeks the help of Dr. Priestley, who is eager for “some enticing problem, mathematical or human.” To confirm his theory of the crimes, Dr. Priestley travels incognito to the Isle of Purbeck.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Murders in Praed Street&lt;/i&gt; features Dr. Lancelot Priestley, an eccentric scientist and mathematician. The novel’s first part introduces the neighborhood of Praed Street, its shopkeepers, and their families. Among these characters are the first victims of a series of shocking murders that terrorize London and baffle the police. In the second part, Scotland Yard seeks the help of Dr. Priestley, who is eager for “some enticing problem, mathematical or human.” To confirm his theory of the crimes, Dr. Priestley travels incognito to the Isle of Purbeck.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/72926</dc:source>
 		<dc:source>https://books.google.com/books?id=iVMuAAAAIAAJ</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">81199</meta>
+		<meta property="se:reading-ease.flesch">73.07</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Murders_in_Praed_Street</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-rhode_the-murders-in-praed-street</meta>
 		<dc:creator id="author">John Rhode</dc:creator>
@@ -73,6 +76,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Weijia Cheng</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cheng, Weijia</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://weijiarhymeswith.asia/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
