@@ -45,7 +45,7 @@
 		<meta id="collection-2" property="belongs-to-collection">Dr. Lancelot Priestley</meta>
 		<meta property="collection-type" refines="#collection-2">series</meta>
 		<meta property="group-position" refines="#collection-2">4</meta>
-		<dc:abstract>An eccentric scientist investigates a series of shocking murders that terrorize London.</dc:abstract>
+		<meta property="schema:abstract">An eccentric scientist investigates a series of shocking murders that terrorize London.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Murders in Praed Street&lt;/i&gt; features Dr. Lancelot Priestley, an eccentric scientist and mathematician. The novel’s first part introduces the neighborhood of Praed Street, its shopkeepers, and their families. Among these characters are the first victims of a series of shocking murders that terrorize London and baffle the police. In the second part, Scotland Yard seeks the help of Dr. Priestley, who is eager for “some enticing problem, mathematical or human.” To confirm his theory of the crimes, Dr. Priestley travels incognito to the Isle of Purbeck.&lt;/p&gt;
 		</dc:description>
